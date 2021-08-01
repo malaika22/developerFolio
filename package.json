@@ -8,6 +8,7 @@
     "apollo-boost": "^0.4.9",
     "axios": "^0.21.1",
     "colorthief": "^2.3.0",
+    "dotenv-webpack": "^7.0.3",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "gh-pages": "^2.1.1",
