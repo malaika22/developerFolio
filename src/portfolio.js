@@ -6,8 +6,9 @@
 // Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
+process = require("process");
+require("dotenv").config();
 
-require('dotenv').config()
 const illustration = {
   animated: true // set to false to use static SVG
 };
