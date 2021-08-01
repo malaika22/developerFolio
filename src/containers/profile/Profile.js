@@ -16,9 +16,10 @@ export default function Profile() {
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
       const getProfileData = () => {
-        fetch("/profile.json")
+        fetch("/public/profile.json")
           .then(result => {
             if (result.ok) {
+              console.log("res prof", result)
               return result.json();
             }
             console.error(result);
