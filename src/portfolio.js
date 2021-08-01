@@ -1,3 +1,4 @@
+
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
@@ -6,6 +7,7 @@
 
 import emoji from "react-easy-emoji";
 
+require('dotenv').config()
 const illustration = {
   animated: true // set to false to use static SVG
 };
