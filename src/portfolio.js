@@ -193,10 +193,12 @@ const workExperiences = {
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
-
+console.log("token", process.env.REACT_APP_GITHUB_TOKEN)
 const openSource = {
+  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
+  githubUserName: "malaika22"
 };
 
 // Some big projects you have worked on
