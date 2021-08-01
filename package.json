@@ -4,10 +4,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "apollo-boost": "^0.4.9",
+    "axios": "^0.21.1",
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "gh-pages": "^2.1.1",
+    "graphql": "^15.5.1",
     "jest-canvas-mock": "^2.3.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -16,9 +20,9 @@
     "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
     "react-scripts": "^3.4.3",
+    "react-test-renderer": "^17.0.2",
     "react-twitter-embed": "3.0.3",
-    "sass": "^1.32.8",
-    "react-test-renderer": "^17.0.2"
+    "sass": "^1.32.8"
   },
   "scripts": {
     "predeploy": "npm run build",
