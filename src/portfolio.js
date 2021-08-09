@@ -19,7 +19,7 @@ const greeting = {
   username: "Malaika Afridi",
   title: "Hi all, I'm Malaika",
   subTitle: emoji(
-    `A Frontend Software Developer having an experience of building Web applications with Javascript/React/Firebase and some other cool libraries and frameworks and passionate about crafting quality code, 
+    `A Frontend Software Developer having an experience of building Web applications with Javascript/React/Firebase and some other cool libraries and frameworks, passionate about crafting quality code, 
     and creating accessible experiences regardless of device.`
   ),
   resumeLink:
@@ -187,7 +187,7 @@ const workExperiences = {
     {
       role: "Freelancer",
       company: "Freelancing",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/upwork.png"),
       date: "Present",
      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
@@ -218,7 +218,16 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I CREATED USING FRONTEND TOOLS",
   projects: [
     {
-
+      image: require("./assets/images/spark.png"),
+      projectName: "Spark",
+      projectDesc: "An interactive social web application",
+      footerLink: [
+        {
+          name: "Visit Application",
+          url: "https://socio-5a611.web.app"
+        }
+        //  you can add extra buttons here.
+      ]
     },
     {
       image: require("./assets/images/swiftHospital.png"),

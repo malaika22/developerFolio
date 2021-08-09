@@ -45,6 +45,7 @@ export default function Greeting() {
                   newTab={true}
                   href={greeting.resumeLink}
                 />
+                <a href="/public/resume.pdf" download="resume"> Download </a>
               </div>
             </div>
           </div>
