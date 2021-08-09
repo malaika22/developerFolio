@@ -23,7 +23,7 @@ const greeting = {
     and creating accessible experiences regardless of device.`
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1dpY025NOZ_n-zLMJF9685YsddV_JCNUT/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
