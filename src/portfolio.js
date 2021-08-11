@@ -236,7 +236,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Application",
-          url: "https://lakeswifthospital.netlify.app/login"
+          url: "https://lakeswifthospital.netlify.app"
         }
         //  you can add extra buttons here.
       ]
