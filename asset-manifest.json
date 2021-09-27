@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.0056aa93.chunk.css",
-    "main.js": "/static/js/main.7c9bea58.chunk.js",
-    "main.js.map": "/static/js/main.7c9bea58.chunk.js.map",
+    "main.js": "/static/js/main.714ed7af.chunk.js",
+    "main.js.map": "/static/js/main.714ed7af.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6edc0afe.js",
     "runtime-main.js.map": "/static/js/runtime-main.6edc0afe.js.map",
-    "static/js/2.ecc187c8.chunk.js": "/static/js/2.ecc187c8.chunk.js",
-    "static/js/2.ecc187c8.chunk.js.map": "/static/js/2.ecc187c8.chunk.js.map",
+    "static/js/2.3b531a63.chunk.js": "/static/js/2.3b531a63.chunk.js",
+    "static/js/2.3b531a63.chunk.js.map": "/static/js/2.3b531a63.chunk.js.map",
     "static/css/3.25727338.chunk.css": "/static/css/3.25727338.chunk.css",
     "static/js/3.ea05a4c6.chunk.js": "/static/js/3.ea05a4c6.chunk.js",
     "static/js/3.ea05a4c6.chunk.js.map": "/static/js/3.ea05a4c6.chunk.js.map",
@@ -14,12 +14,12 @@
     "static/js/4.a8f81bc0.chunk.js": "/static/js/4.a8f81bc0.chunk.js",
     "static/js/4.a8f81bc0.chunk.js.map": "/static/js/4.a8f81bc0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d7b118a7c6199dceee5f7411690ae718.js": "/precache-manifest.d7b118a7c6199dceee5f7411690ae718.js",
+    "precache-manifest.eacc61038ff3b2b1298418b60f31d8c6.js": "/precache-manifest.eacc61038ff3b2b1298418b60f31d8c6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.25727338.chunk.css.map": "/static/css/3.25727338.chunk.css.map",
     "static/css/4.a8329f31.chunk.css.map": "/static/css/4.a8329f31.chunk.css.map",
     "static/css/main.0056aa93.chunk.css.map": "/static/css/main.0056aa93.chunk.css.map",
-    "static/js/2.ecc187c8.chunk.js.LICENSE.txt": "/static/js/2.ecc187c8.chunk.js.LICENSE.txt",
+    "static/js/2.3b531a63.chunk.js.LICENSE.txt": "/static/js/2.3b531a63.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/codeInLogo.webp": "/static/media/codeInLogo.47a7a717.webp",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.51cf7192.svg",
@@ -37,8 +37,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6edc0afe.js",
-    "static/js/2.ecc187c8.chunk.js",
+    "static/js/2.3b531a63.chunk.js",
     "static/css/main.0056aa93.chunk.css",
-    "static/js/main.7c9bea58.chunk.js"
+    "static/js/main.714ed7af.chunk.js"
   ]
 }
