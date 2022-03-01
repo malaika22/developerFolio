@@ -1,4 +1,3 @@
-
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
@@ -6,10 +5,10 @@
 // Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
-require("fs")
-const dotenv = require("dotenv")
-const res =dotenv.config();
-console.log('res env', res)
+require("fs");
+const dotenv = require("dotenv");
+const res = dotenv.config();
+console.log("res env", res);
 
 const illustration = {
   animated: true // set to false to use static SVG
@@ -51,9 +50,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS"
-    )
+    emoji("⚡ Integration of third party services such as Firebase/ AWS")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -81,14 +78,14 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "bootstrap" ,
+      skillName: "bootstrap",
       fontAwesomeClassname: "fab fa-bootstrap"
     },
-  /*  {
+    /*  {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     }, */
-  /*  {
+    /*  {
       skillName: "swift",
       fontAwesomeClassname: "fab fa-swift"
     }, */
@@ -96,7 +93,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-   /* {
+    /* {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     }, */
@@ -107,8 +104,8 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-   /* {
+    }
+    /* {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
@@ -130,8 +127,8 @@ const educationInfo = {
       logo: require("./assets/images/karachiUni.jpeg"),
       subHeader: "Bachelors in Computer Science",
       duration: "January 2018 - December 2021",
-      desc: "Graduating in Computer Science from UBIT",
-     /* descBullets: [
+      desc: "Graduating in Computer Science from UBIT"
+      /* descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ] */
@@ -141,8 +138,8 @@ const educationInfo = {
       logo: require("./assets/images/collegeLogo.png"),
       subHeader: "Intermediate in Engineering",
       duration: "April 2015 - April 2017",
-      desc: "Intermediate in Engineering",
-    //  descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Intermediate in Engineering"
+      //  descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -177,33 +174,33 @@ const workExperiences = {
       role: "Frontend Software Developer",
       company: "Kpibar",
       companylogo: require("./assets/images/kpibarLogo.png"),
-      date: "November 2020 – Present",
-      desc: "Working as a Frontend Developer on a project managing tool startup",
-   /*   descBullets: [
+      date: "November 2020 – January 2022",
+      desc: "Working as a Frontend Developer on a project managing tool startup"
+      /*   descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ] */
     },
     {
-      role: "Freelancer",
-      company: "Freelancing",
-      companylogo: require("./assets/images/upwork.png"),
-      date: "Present",
-     // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-  /*  {
+      role: "ReactJs Developer",
+      company: "CSTech Softwares",
+      companylogo: require("./assets/images/csTech.jpg"),
+      date: "September 2021 - Present"
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+    /*  {
       role: "Software Engineer Intern",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Lorem ipsum dolor sit amet z, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     } */
   ]
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
-console.log("token", process.env.REACT_APP_GITHUB_TOKEN)
+console.log("token", process.env.REACT_APP_GITHUB_TOKEN);
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
@@ -232,7 +229,8 @@ const bigProjects = {
     {
       image: require("./assets/images/swiftHospital.png"),
       projectName: "Lake View Swift Hospital",
-      projectDesc: "An doctor booking web application made using API integration",
+      projectDesc:
+        "An doctor booking web application made using API integration",
       footerLink: [
         {
           name: "Visit Application",
