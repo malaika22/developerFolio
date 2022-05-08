@@ -215,26 +215,40 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I CREATED USING FRONTEND TOOLS",
   projects: [
     {
-      image: require("./assets/images/spark.png"),
-      projectName: "Spark",
-      projectDesc: "An interactive social web application",
+      image: require("./assets/images/jawnjawn.png"),
+      projectName: "Jawn Jawn",
+      projectDesc:
+        "JawnJawn is the one stop employment job listing website offering all employment skill level job opportunities with top employers posting jobs online with top paying jobs.",
       footerLink: [
         {
           name: "Visit Application",
-          url: "https://socio-5a611.web.app"
+          url: "https://www.jawnjawn.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/swiftHospital.png"),
-      projectName: "Lake View Swift Hospital",
+      image: require("./assets/images/matchCity.png"),
+      projectName: "Match City",
       projectDesc:
-        "An doctor booking web application made using API integration",
+        "An online dating site that let users connect with eachother.",
       footerLink: [
         {
           name: "Visit Application",
-          url: "https://lakeswifthospital.netlify.app"
+          url: "https://matchcity.ca/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/techWare.png"),
+      projectName: "Tech ware",
+      projectDesc:
+        "Techware Hub aims to strategize and boost your growth exponentially amidst the growing competition.",
+      footerLink: [
+        {
+          name: "Visit Application",
+          url: "https://thetechwarehub.com/"
         }
         //  you can add extra buttons here.
       ]
