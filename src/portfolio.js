@@ -18,11 +18,10 @@ const greeting = {
   username: "Malaika Afridi",
   title: "Hi all, I'm Malaika",
   subTitle: emoji(
-    `A Frontend Software Developer having an experience of building Web applications with Javascript/React/Firebase and some other cool libraries and frameworks, passionate about crafting quality code, 
-    and creating accessible experiences regardless of device.`
+    `Hey, I'm a Frontend Engineer with more than 2 years of professional experience of building Web applications with different technology stacks (ReactJs, NextJs, Javascript, Firebase, Typescript).`
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1dpY025NOZ_n-zLMJF9685YsddV_JCNUT/view?usp=sharing",
+    "https://drive.google.com/file/d/1C8bQ99h6qmkFS0g9cSMkTQb8YU8zQm7s/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -81,22 +80,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "bootstrap",
       fontAwesomeClassname: "fab fa-bootstrap"
     },
-    /*  {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    }, */
-    /*  {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    }, */
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    /* {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    }, */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
@@ -105,14 +92,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     }
-    /* {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    } */
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -159,7 +138,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -171,30 +150,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Frontend Software Developer",
-      company: "Kpibar",
-      companylogo: require("./assets/images/kpibarLogo.png"),
-      date: "November 2020 – January 2022",
-      desc: "Working as a Frontend Developer on a project managing tool startup"
-      /*   descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ] */
+      role: "Frontend Engineer",
+      company: "Robor Systems",
+      companylogo: require("./assets/images/robor.png"),
+      date: "May 2022 - Present",
+      desc: "Working as a Frontend Engineer"
     },
     {
       role: "ReactJs Developer",
       company: "CSTech Softwares",
       companylogo: require("./assets/images/csTech.jpg"),
-      date: "September 2021 - Present"
+      date: "September 2021 - April 2022"
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      role: "Frontend Software Developer",
+      company: "Kpibar",
+      companylogo: require("./assets/images/kpibarLogo.png"),
+      date: "November 2020 – January 2022",
+      desc: "Working as a Frontend Developer on a project managing tool startup"
     }
-    /*  {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet z, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    } */
   ]
 };
 
@@ -215,26 +190,66 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I CREATED USING FRONTEND TOOLS",
   projects: [
     {
-      image: require("./assets/images/spark.png"),
-      projectName: "Spark",
-      projectDesc: "An interactive social web application",
+      image: require("./assets/images/carTajir.png"),
+      projectName: "Car Tajir",
+      projectDesc:
+        "Car Tajir is a car listing site that let's you buy your dream car, upgrade your car with used cars and sell your car.",
       footerLink: [
         {
           name: "Visit Application",
-          url: "https://socio-5a611.web.app"
+          url: "https://car-tajir.netlify.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/swiftHospital.png"),
-      projectName: "Lake View Swift Hospital",
+      image: require("./assets/images/jawnjawn.png"),
+      projectName: "Jawn Jawn",
       projectDesc:
-        "An doctor booking web application made using API integration",
+        "JawnJawn is the one stop employment job listing website offering all employment skill level job opportunities with top employers posting jobs online with top paying jobs.",
       footerLink: [
         {
           name: "Visit Application",
-          url: "https://lakeswifthospital.netlify.app"
+          url: "https://www.jawnjawn.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/weejadu.png"),
+      projectName: "Wejadu",
+      projectDesc:
+        "Wejadu is an interactive application that focus on user 'Employability Promotion & Career Growth'. Check your skills-on-the-go. Explore how other responds to situations and improve your skills",
+      footerLink: [
+        {
+          name: "Visit Application",
+          url: "https://wejadu.herokuapp.com/start"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/spark.png"),
+      projectName: "Spark",
+      projectDesc:
+        "Spark is social media application, that let users post/share and like their thoughts, generate random quotes, and chat with other user.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://spark-6cec0.web.app/signup"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/CNX.png"),
+      projectName: "CNX-Network",
+      projectDesc:
+        "First Mining ICO Token Start Up. The first sustainable worldwide blockchain technology network, offering encrypted, interconnected and same interface applications that are used in daily life, running on its own blockchain and currency.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://cnxnetwork.herokuapp.com/"
         }
         //  you can add extra buttons here.
       ]
