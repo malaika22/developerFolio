@@ -52,6 +52,7 @@
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
-    "prettier": "^2.3.1"
+    "prettier": "^2.3.1",
+    "react-icons": "^4.4.0"
   }
 }
