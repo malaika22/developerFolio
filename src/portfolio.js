@@ -21,7 +21,7 @@ const greeting = {
     `Hey, I'm a Frontend Engineer with more than 2 years of professional experience of building Web applications with different technology stacks (ReactJs, NextJs, Javascript, Firebase, Typescript).`
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1C8bQ99h6qmkFS0g9cSMkTQb8YU8zQm7s/view?usp=sharing",
+    "https://drive.google.com/file/d/1aWxnG0zADgYMwOCPoShEKrJ66UBux2Qd/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -175,7 +175,7 @@ const workExperiences = {
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
-console.log("token", process.env.REACT_APP_GITHUB_TOKEN);
+
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
@@ -203,19 +203,6 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/jawnjawn.png"),
-      projectName: "Jawn Jawn",
-      projectDesc:
-        "JawnJawn is the one stop employment job listing website offering all employment skill level job opportunities with top employers posting jobs online with top paying jobs.",
-      footerLink: [
-        {
-          name: "Visit Application",
-          url: "https://www.jawnjawn.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
       image: require("./assets/images/weejadu.png"),
       projectName: "Wejadu",
       projectDesc:
@@ -224,6 +211,45 @@ const bigProjects = {
         {
           name: "Visit Application",
           url: "https://wejadu.herokuapp.com/start"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/jadoo.png"),
+      projectName: "Jadoo- Travel Community",
+      projectDesc:
+        "Jadoo is a travel community that lets you know about the best destinations around the world. Jadoo is a animated landing page integrated with new and modern world animations.",
+      footerLink: [
+        {
+          name: "Visit Application",
+          url: "https://tech-worlds.netlify.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/tech-world.png"),
+      projectName: "Tech-World",
+      projectDesc:
+        "Tech-world is a digital products market place landing page with lots of modern world animations.",
+      footerLink: [
+        {
+          name: "Visit Application",
+          url: "https://tech-worlds.netlify.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/jawnjawn.png"),
+      projectName: "Jawn Jawn",
+      projectDesc:
+        "JawnJawn is the one stop employment job listing website offering all employment skill level job opportunities with top employers posting jobs online with top paying jobs.",
+      footerLink: [
+        {
+          name: "Visit Application",
+          url: "https://www.jawnjawn.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -252,17 +278,6 @@ const bigProjects = {
           url: "https://cnxnetwork.herokuapp.com/"
         }
         //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/sixteenClothing.png"),
-      projectName: "Sixteen Clothing",
-      projectDesc: "Responsive clothing web application",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://clothingsixteen.netlify.app/"
-        }
       ]
     }
   ],
