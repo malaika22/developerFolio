@@ -21,7 +21,7 @@ const greeting = {
     `Hey, I'm a Frontend Engineer with more than 2 years of professional experience of building Web applications with different technology stacks (ReactJs, NextJs, Javascript, Firebase, Typescript).`
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1aWxnG0zADgYMwOCPoShEKrJ66UBux2Qd/view?usp=sharing",
+    "https://drive.google.com/file/d/1mQstkzpwFghidcOQr7YdAe_EsugKfEBm/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
